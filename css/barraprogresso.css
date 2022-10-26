@@ -1,0 +1,30 @@
+
+.barraPresidente{
+    width: 350px;
+    height: 5px;
+    border: none;
+    border-radius: 10px;
+    background-color: #ccc;
+}
+.barraPresidente div{
+    height: 100%;
+    border-radius: 10px;
+    background-color: seagreen;
+
+
+}
+
+.barraGovernador{
+    width: 350px;
+    height: 5px;
+    border: none;
+    border-radius: 10px;
+    background-color: #ccc;
+}
+.barraGovernador div{
+    height: 100%;
+    border-radius: 10px;
+    background-color: seagreen;
+
+
+}
