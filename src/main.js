@@ -18,12 +18,12 @@ function governador(url) {
            st20.textContent = data.cand[1].st
            pst10.textContent = `${data.pst}% das seções totalizadas`
            if (data.cand[0].nm == "MARÍLIA ARRAES") {
-               fotop10.src = "https://resultados.tse.jus.br/oficial/ele2022/547/fotos/pe/170001610442.jpeg"
-               fotop20.src = "https://resultados.tse.jus.br/oficial/ele2022/547/fotos/pe/170001604087.jpeg"
+                fotop10.setAttribute("style",`background-image: url("https://resultados.tse.jus.br/oficial/ele2022/547/fotos/pe/170001610442.jpeg")`)
+                fotop20.setAttribute("style",`background-image: url("https://resultados.tse.jus.br/oficial/ele2022/547/fotos/pe/170001604087.jpeg")`)
 
            } else {
-               fotop20.src = "https://resultados.tse.jus.br/oficial/ele2022/547/fotos/pe/170001610442.jpeg"
-               fotop10.src = "https://resultados.tse.jus.br/oficial/ele2022/547/fotos/pe/170001604087.jpeg"
+                fotop20.setAttribute("style",`background-image: url("https://resultados.tse.jus.br/oficial/ele2022/547/fotos/pe/170001610442.jpeg")`)
+               fotop10.setAttribute("style",`background-image: url("https://resultados.tse.jus.br/oficial/ele2022/547/fotos/pe/170001604087.jpeg")`)
            }
        })
 
@@ -53,8 +53,8 @@ function presidente(url) {
 
 
          if (data.cand[0].nm == "LULA") {
-            fotop1.src = "https://resultados.tse.jus.br/oficial/ele2022/545/fotos/br/280001607829.jpeg"
-            fotop2.src = "https://resultados.tse.jus.br/oficial/ele2022/545/fotos/br/280001618036.jpeg"
+            fotop1.setAttribute("style",`background-image: url("https://resultados.tse.jus.br/oficial/ele2022/545/fotos/br/280001607829.jpeg")`)
+            fotop2.setAttribute("style",`background-image: url("https://resultados.tse.jus.br/oficial/ele2022/545/fotos/br/280001618036.jpeg")`)
 
          } else {
             fotop2.src = "https://resultados.tse.jus.br/oficial/ele2022/545/fotos/br/280001607829.jpeg"
