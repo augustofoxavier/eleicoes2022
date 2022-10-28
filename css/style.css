@@ -1,0 +1,18 @@
+.loading{
+    border: none;
+    border: 8px solid #eef2ff;
+    height: 80px;
+    width: 80px;
+    border-top: 8px solid #6d28d9;
+    border-radius: 50%;
+    animation: spin 1.5s linear infinite;
+
+}
+
+@keyframes spin{
+    0% { transform: rotate(0deg);}
+    40% { transform: rotate(90deg);}
+    80% { transform: rotate(180deg);}
+    100% { transform: rotate(360deg);}
+
+}
