@@ -57,8 +57,8 @@ function presidente(url) {
             fotop2.setAttribute("style",`background-image: url("https://resultados.tse.jus.br/oficial/ele2022/545/fotos/br/280001618036.jpeg")`)
 
          } else {
-            fotop2.src = "https://resultados.tse.jus.br/oficial/ele2022/545/fotos/br/280001607829.jpeg"
-            fotop1.src = "https://resultados.tse.jus.br/oficial/ele2022/545/fotos/br/280001618036.jpeg"
+            fotop2.setAttribute("style",`background-image: url("https://resultados.tse.jus.br/oficial/ele2022/545/fotos/br/280001607829.jpeg")`)
+            fotop1.setAttribute("style",`background-image: url("https://resultados.tse.jus.br/oficial/ele2022/545/fotos/br/280001618036.jpeg")`)
          }
 
 
